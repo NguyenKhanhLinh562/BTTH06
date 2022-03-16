@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sử dụng đối tượng Array</title>
+</head>
+
+<body>
+    <h2>Thao tác trên mảng</h2>
+    <table style="border: 1px solid  rgb(48, 61, 133)">
+        <tr>
+            <td>
+                <button onclick="myFunction()">Tạo mảng</button>
+            </td>
+            <td>
+                <p id="demo"></p>
+            </td>
+        </tr>
+    </table>
+
+    <table style="border: 1px solid rgb(48, 61, 133)">
+        <tr>
+            <td>
+                <p id="demo1" style="color: coral;">Giá trị sau khi được sắp xếp</p>
+            </td>
+        </tr>
+    </table>
+    <table style="border: 1px solid  rgb(48, 61, 133)">
+        <tr>
+            <td>
+                <form>
+                    <input type="radio" onclick="myFunction1()">Sắp xếp tăng dần
+                </form>
+            </td>
+            <td>
+                <form><input type="radio" onclick="myFunction2()">Sắp xếp giảm dần</form>
+            </td>
+        </tr>
+    </table>
+
+    <table >
+
+        <form>
+            <label for="vitri">Thêm giá vào vị trí</label>
+            <input type="number" id="vitri" name="vitri">
+
+            <label for="giatri">Gía trị</label>
+            <input type="number" id="gt" name="gt">
+
+            <input type="submit"onclick="myFunction3()">Thêm
+        </form>
+    </table>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
